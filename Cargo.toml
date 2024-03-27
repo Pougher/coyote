@@ -1,5 +1,5 @@
 [package]
-name = "coyote"
+name = "coyote-build"
 version = "0.1.0"
 edition = "2021"
 autors = [ "Pougher <axolotifiedyt@gmail.com>" ]
