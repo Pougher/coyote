@@ -83,7 +83,7 @@ Lets say you were working on a project that builds the file `hello.c` into the e
                 "commands": [
                     {
                         "command": "gcc",
-                        "arguments": [ "-O3", "-o{target}" ],
+                        "arguments": [ "hello.c", -O3", "-o{target}" ],
                         "run_if": [ "modified", "hello.c" ]
                     }
                 ]
